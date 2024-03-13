@@ -4,12 +4,16 @@ import {
   creator,
   web,
   javascript,
-  typescript,
-  html,
-  css,
+  // typescript,
+  // html,
+  pytorch,
+  tensorflow,
+  neuralnetworks,
+  scikitlearn,
+  python,
+  // css,
   reactjs,
-  redux,
-  tailwind,
+  // tailwind,
   nodejs,
   mongodb,
   git,
@@ -19,6 +23,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  swiftlaunch,
   carrent,
   jobit,
   tripguide,
@@ -42,11 +47,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "AI Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Python Developer",
     icon: mobile,
   },
   {
@@ -54,40 +59,41 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Startup Founder",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Tensorflow",
+    icon: tensorflow,
+  },
+  {
+    name: "Neural Networks",
+    icon: neuralnetworks,
+  },
+  {
+    name: "PyTorch",
+    icon: pytorch,
+  },
+  {
+    name: "Scikit Learn",
+    icon: scikitlearn,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+ 
   {
     name: "Node JS",
     icon: nodejs,
@@ -116,11 +122,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Entrepreneur",
+    company_name: "Swift Launch Incubation",
+    icon: swiftlaunch,
+    iconBg: "#DAE2FF",
+    date: "March 2024 - June 2024",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -133,7 +139,7 @@ const experiences = [
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2031 - Feb 2032",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -146,7 +152,7 @@ const experiences = [
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2032 - Jan 2033",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -159,7 +165,7 @@ const experiences = [
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2033 - Singularity",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,7 +178,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I was convinced that creating an AI system as intricate as our product was beyond reach, but Kingcode shattered that belief.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +186,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I’ve never encountered an AI engineer who genuinely prioritizes their clients’ achievements as much as Kingcode does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +194,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Kingcode optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,33 +204,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Bianca AI marketplace",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "regression",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "scikit-learn",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MarsX-2002?tab=repositories",
   },
   {
-    name: "Job IT",
+    name: "iSee - assistive tech",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "neuralnetworks",
         color: "blue-text-gradient",
       },
       {
@@ -232,15 +238,15 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tensorflow",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MarsX-2002?tab=repositories",
   },
   {
-    name: "Trip Guide",
+    name: "Content AI",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -258,7 +264,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/MarsX-2002?tab=repositories",
   },
 ];
 
